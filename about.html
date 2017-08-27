@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <meta charset="utf-8"/>
+        <title> Kyle Kern: Personal Website</title>
+        <style>
+            body{
+                background-color: #000066 !important;
+            }
+            header, main, nav, footer{
+                text-align: center;
+            }
+            nav a:hover{ /*pseudo class*/
+            border-bottom:2px orange solid;
+            font-size: 2em;
+            transition: .9s; /*transition effect */
+            }
+            #me, #welcomeText {
+                float:left;
+            }
+            footer{
+                clear: left;
+                background-color: white;
+            }
+            table{
+                margin: 0px auto;
+            }
+            td{
+                padding-right: 10px;
+                font-size: 1.3em;
+            }
+            
+            td strong{
+                color: orange;
+            }
+            #table-header{
+                background-color: #351a00;
+            }
+            .table-row{
+                background-color: #753900;
+            }
+            ul {
+                text-align: left;
+                padding-left: 200px;
+            }
+            .hobby {
+                color: yellow;
+            }
+             h1{
+                font-family: 'Pacifico', cursive;
+                font-size: 4em;
+                margin-bottom: 0px;
+            }
+        </style>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        <header>
+            <h1>Kyle Kern</h1>
+        </header>
+        <nav> 
+            <hr width="50%"/>
+            <a href="index.html" color= white>Home</a>
+            <a href="about.html"><strong>About</strong></a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <br /><br />
+       <div id="content">
+           <table>
+               <tr id="table-header">
+                   <td><strong>Programming Language</strong></td>
+                   <td><strong>Years Experience</strong></td>
+               </tr>
+               <tr class="table-row">
+                   <td>C++</td>
+                   <td>3</td>
+               </tr>
+               <tr class="table-row">
+                   <td>PHP</td>
+                   <td>1</td>
+               </tr>
+           </table>
+           <ul>
+               <li><span class="hobby">Video games</span>: I own all curent gen consoles and mostly play overwatch and pokemon</li>
+               <li><span class="hobby">Music</span>: Mostly listen to punk</li>
+               <li><span class="hobby">Programming</span>: spend about 2 hours a day working on coding</li>
+           
+           </ul>
+       </div>
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            <hr>
+            Internet programming 2017 Kern <br />
+            <strong>
+                Disclamer: </strong> The information in this webpage is fictitous. <br />
+            It is used for academic purposes only
+            <figure id="csumb">
+                <img src="img/Cal-State-Monterey-Bay.jpg" width="100" height="50" alt="csumb logo" />
+            </figure>
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>
