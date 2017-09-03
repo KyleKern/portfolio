@@ -16,7 +16,7 @@ in html
         <title> Kyle Kern: Personal Website</title>
         <style>
             body{
-                background-color: #000066 !important;
+                background-color: lightblue !important;
             }
             header, main, nav, footer{
                 text-align: center;
@@ -53,14 +53,14 @@ in html
         </header>
         <nav> 
             <hr width="50%"/>
-            <a href="index.html" color= white><strong>Home</strong></a>
+            <a href="index.php" color= white><b>Home</b></a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
         <br /><br />
         <main>
             <figure id="me">
-                <img src="img/kyle_kern.jpg" width="400" height="400" alt="Picture of Kyle Kern" />
+                <img src="img/kyle_kern.jpg" width="480" height="600" alt="Picture of Kyle Kern" />
             </figure>
             
             <div id="welcomeText">
