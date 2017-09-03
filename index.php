@@ -60,7 +60,7 @@ in html
         <br /><br />
         <main>
             <figure id="me">
-                <img src="img/kyle_kern.jpg" width="480" height="600" alt="Picture of Kyle Kern" />
+                <img src="img/kyleK.jpg" width="480" height="600" alt="Picture of Kyle Kern" />
             </figure>
             
             <div id="welcomeText">
